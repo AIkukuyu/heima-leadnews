@@ -1,0 +1,14 @@
+[
+  {
+    "type": "text",
+    "value": "Java虚拟机——JVM\n\n- JVM（Java Virtual Machine ）：Java虚拟机，简称JVM，是运行所有Java程序的假想计算机，是Java程序的运行环境，是Java 最具吸引力的特性之一。我们编写的Java代码，都运行在JVM 之上。\n- 跨平台：任何软件的运行，都必须要运行在操作系统之上，而我们用Java编写的软件可以运行在任何的操作系统上，这个特性称为Java语言的跨平台特性。该特性是由JVM实现的，我们编写的程序运行在JVM上，而JVM运行在操作系统上。\n"
+  },
+  {
+    "type": "image",
+    "value": "http://81.70.34.138/group1/M00/00/00/wKjIgl9V2n6AArZsAAGMmaPdt7w502.png"
+  },
+  {
+    "type": "text",
+    "value": "如图所示，Java的虚拟机本身不具备跨平台功能的，每个操作系统下都有不同版本的虚拟机。\n\n问题1: Java 是如何实现跨平台的呢？\n\n- 答：因为在不同操作系统中都安装了对应版本的 JVM 虚拟机\n- 注意: Java程序想要运行, 必须依赖于JVM虚拟机.\n\n问题2: JVM 本身是否允许跨平台呢？\n\n- 答：不允许，允许跨平台的是 Java 程序，而不是虚拟机。\n"
+  }
+]
