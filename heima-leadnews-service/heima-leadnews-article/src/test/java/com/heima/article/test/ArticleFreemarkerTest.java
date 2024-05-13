@@ -71,10 +71,6 @@ public class ArticleFreemarkerTest {
             apArticleService.update(Wrappers.<ApArticle>lambdaUpdate().eq(ApArticle::getId,
                     apArticleContent.getArticleId()).set(ApArticle::getStaticUrl, path));
 
-
         }
-
-
-
     }
 }
